@@ -12,4 +12,4 @@ void binary_tree_delete(binary_tree_t *tree)
 	binary_tree_Delete(tree->right);
 
 	free(tree);
-}./gi	
+}
