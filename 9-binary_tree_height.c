@@ -19,6 +19,10 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	{
 		return (1 + l_height); /*adding 1 includes the root*/
 	}
+	else if (l_height == 0 && r_height == 0)
+	{
+		return(0);
+	}
 	else
 	{
 		return (1 + r_height);
