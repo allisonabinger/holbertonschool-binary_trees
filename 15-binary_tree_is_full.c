@@ -9,15 +9,12 @@
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	if (tree == NULL)
-	{
 		return (0);
-	}
+
 	if (binary_tree_size(tree) % 2 == 0)
-	{
 		return (0);
-	}
+
 	if (binary_tree_balance(tree) == 0)
-	{
 		return (1);
-	}
+
 }
